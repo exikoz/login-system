@@ -5,8 +5,12 @@
         exit('You do not have a config file');
     }
 
-    define('ALLOW_FOOTER', true);
-    // Our config is below 
+    
+    // Our config is below
+    
+    // Include the DB.php file;
+    include_once "classes/DB.php";
 
+    $con = DB::getConnection();
 
 ?>
