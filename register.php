@@ -1,3 +1,19 @@
+<?php 
+    
+    // Allow the config
+    define('__CONFIG__', true);
+    // Require the config
+    require_once "inc/config.php";
+    
+    // $pass = "hello my name is kaleob";
+    // echo $pass . "<hr />";
+
+    // $password = password_hash($pass, PASSWORD_DEFAULT);
+    // echo $password;
+    // exit;
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
